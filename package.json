@@ -1,0 +1,46 @@
+{
+  "name": "passport-sam",
+  "version": "0.1.2",
+  "description": "SAM authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "sam",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/samdesk/passport-sam.git"
+  },
+  "bugs": {
+    "url": "http://github.com/samdesk/passport-sam/issues"
+  },
+  "author": {
+    "name": "Jordan Ranson",
+    "email": "jordan@samdesk.io",
+    "url": "http://www.samdesk.io/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/passport-sam",
+  "dependencies": {
+    "oauth": "^0.9.14",
+    "passport-oauth": "0.1.x",
+    "pkginfo": "0.2.x"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
